@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentacion", "Presentacion", "{45028594-293B-47A5-A678-A3088E6925B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentacion", "Presentacion\Presentacion.csproj", "{ADEBF479-35C8-4C90-A442-26F68186E5C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logica", "Logica", "{D8520DF9-1938-431B-BF9E-5B8DC63F3B63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logica", "Logica\Logica.csproj", "{7FEED471-0C98-4924-A01B-CDA33F938978}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistencia", "Persistencia", "{6490089F-3CBD-41FA-9115-7A560705FFA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistencia", "Persistencia\Persistencia.csproj", "{6AD6056F-CA6B-4346-83CA-55C84514E3CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enumeradores", "Enumeradores", "{9D0A3BE9-5F6C-49DA-85DB-8F9986255363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumeradores", "Enumeradores\Enumeradores.csproj", "{AB711A80-601F-47BB-98FF-8E32CB9C9480}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADEBF479-35C8-4C90-A442-26F68186E5C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEBF479-35C8-4C90-A442-26F68186E5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEBF479-35C8-4C90-A442-26F68186E5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEBF479-35C8-4C90-A442-26F68186E5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FEED471-0C98-4924-A01B-CDA33F938978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FEED471-0C98-4924-A01B-CDA33F938978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FEED471-0C98-4924-A01B-CDA33F938978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FEED471-0C98-4924-A01B-CDA33F938978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD6056F-CA6B-4346-83CA-55C84514E3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD6056F-CA6B-4346-83CA-55C84514E3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD6056F-CA6B-4346-83CA-55C84514E3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD6056F-CA6B-4346-83CA-55C84514E3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB711A80-601F-47BB-98FF-8E32CB9C9480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB711A80-601F-47BB-98FF-8E32CB9C9480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB711A80-601F-47BB-98FF-8E32CB9C9480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB711A80-601F-47BB-98FF-8E32CB9C9480}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADEBF479-35C8-4C90-A442-26F68186E5C9} = {45028594-293B-47A5-A678-A3088E6925B9}
+		{7FEED471-0C98-4924-A01B-CDA33F938978} = {D8520DF9-1938-431B-BF9E-5B8DC63F3B63}
+		{6AD6056F-CA6B-4346-83CA-55C84514E3CD} = {6490089F-3CBD-41FA-9115-7A560705FFA1}
+		{AB711A80-601F-47BB-98FF-8E32CB9C9480} = {9D0A3BE9-5F6C-49DA-85DB-8F9986255363}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECAC647A-7F48-4EB7-AE2C-68E1C7922E05}
+	EndGlobalSection
+EndGlobal
